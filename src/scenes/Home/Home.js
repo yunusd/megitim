@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
     const catalogs = [
         {
-            name: "C# Eğitimleri",
+            name: "Golang Eğitimleri",
             description: "Youtube üzerinde herkese açık olarak eğitim veren bir çok eğitmenin eğitim listelerini incele, istediğin eğitimi seç ve hemen izlemeye başlaya.",
-            posterPath: "https://lh3.googleusercontent.com/proxy/s7yXaB6i_HI5sDfZwYljEq8_1ilK6SoUStvE9-R6fkK6LsPGtPuMnXrt-M8ewo740XjdNI93fQPTxtiOYMXDAiibaujjuwP-gzgbmRLg3-QYhjTbgNKzBgOE9Q"
+            posterPath: "https://miro.medium.com/max/3152/0*7vQ8eRc28yz9k__r.png"
         },
         {
             name: "Python Eğitimleri",
@@ -64,7 +64,7 @@ const Home = () => {
                                 <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
                                     <div className="flex relative">
                                         <img alt="gallery"
-                                             className="absolute inset-0 w-full h-full object-cover object-center"
+                                             className="absolute inset-0 w-full h-full object-cover object-center "
                                              src={cat.posterPath}/>
                                         <div
                                             className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
